@@ -22,6 +22,13 @@ export default function HonorsPage() {
                                     </div>
                                 </div>
                             </div>
+                            <div className="flex flex-col sm:flex-row gap-2 sm:gap-4">
+                                <span className="font-semibold min-w-32 text-gray-500">CVE-2026-26013</span>
+                                <div>
+                                    <div className="font-semibold text-black dark:text-white">Server Side Request Forgery, CVSS 3.7</div>
+                                    <div className="text-sm text-gray-600 dark:text-gray-400">langchain</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
 
@@ -32,6 +39,17 @@ export default function HonorsPage() {
                         </h3>
 
                         <div className="space-y-8">
+                            {/* 2026 */}
+                            <div>
+                                <h4 className="text-lg font-semibold text-gray-500 mb-4">2026</h4>
+                                <div className="space-y-3">
+                                    <div className="flex flex-col sm:flex-row gap-2 sm:gap-4">
+                                        <span className="font-semibold min-w-24 text-gray-500">6th Place</span>
+                                        <div className="text-sm text-gray-600 dark:text-gray-400">SECCON Final (Team: [:])</div>
+                                    </div>
+                                </div>
+                            </div>
+
                             {/* 2025 */}
                             <div>
                                 <h4 className="text-lg font-semibold text-gray-500 mb-4">2025</h4>
@@ -71,7 +89,7 @@ export default function HonorsPage() {
                                     </div>
                                     <div className="flex flex-col sm:flex-row gap-2 sm:gap-4">
                                         <span className="font-semibold min-w-24 text-gray-600 dark:text-gray-300">2nd Place</span>
-                                        <div className="text-sm text-gray-600 dark:text-gray-400">GPN CTF (Team: RubiyaLab)</div>
+                                        <div className="text-sm text-gray-600 dark:text-gray-400">LG U+ Security Hackathon (Team: The_Manhattan_Project)</div>
                                     </div>
 
                                     <div className="flex flex-col sm:flex-row gap-2 sm:gap-4">
@@ -113,10 +131,7 @@ export default function HonorsPage() {
                                         <span className="font-semibold min-w-24 text-gray-500">Finalist</span>
                                         <div className="text-sm text-gray-600 dark:text-gray-400">Cyber Defenders Discovery Camp brainhack CTF (Team: Nijika)</div>
                                     </div>
-                                    <div className="flex flex-col sm:flex-row gap-2 sm:gap-4">
-                                        <span className="font-semibold min-w-24 text-gray-600 dark:text-gray-300">2nd Place</span>
-                                        <div className="text-sm text-gray-600 dark:text-gray-400">LG U+ Security Hackathon (Team: The_Manhattan_Project)</div>
-                                    </div>
+
                                 </div>
                             </div>
 
