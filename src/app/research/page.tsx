@@ -99,6 +99,72 @@ export default function ResearchPage() {
                     </div>
 
                     <div>
+                        <h3 className="text-lg font-medium mb-4 border-b border-gray-100 dark:border-gray-800 pb-2">EVerest</h3>
+                        <ul className="space-y-4">
+                            <li>
+                                <div className="font-medium text-black dark:text-white">CVE-2026-27814</div>
+                                <div className="text-sm text-gray-600 dark:text-gray-400">Race condition in state machine loop (CVSS 4.2)</div>
+                            </li>
+                            <li>
+                                <div className="font-medium text-black dark:text-white">CVE-2026-26070</div>
+                                <div className="text-sm text-gray-600 dark:text-gray-400">Data race leading to std::map container corruption</div>
+                            </li>
+                            <li>
+                                <div className="font-medium text-black dark:text-white">CVE-2026-26071</div>
+                                <div className="text-sm text-gray-600 dark:text-gray-400">Data race leading to concurrent access heap use-after-free</div>
+                            </li>
+                            <li>
+                                <div className="font-medium text-black dark:text-white">CVE-2026-26072</div>
+                                <div className="text-sm text-gray-600 dark:text-gray-400">Data race leading to std::map&lt;std::optional&gt; corruption</div>
+                            </li>
+                            <li>
+                                <div className="font-medium text-black dark:text-white">CVE-2026-26073</div>
+                                <div className="text-sm text-gray-600 dark:text-gray-400">Data race leading to std::queue corruption</div>
+                            </li>
+                            <li>
+                                <div className="font-medium text-black dark:text-white">CVE-2026-26008</div>
+                                <div className="text-sm text-gray-600 dark:text-gray-400">Out-of-bounds read in energy transfer modes handling</div>
+                            </li>
+                            <li>
+                                <div className="font-medium text-black dark:text-white">CVE-2026-26074</div>
+                                <div className="text-sm text-gray-600 dark:text-gray-400">Data race leading to std::map&lt;std::queue&gt; corruption</div>
+                            </li>
+                            <li>
+                                <div className="font-medium text-black dark:text-white">CVE-2026-27813</div>
+                                <div className="text-sm text-gray-600 dark:text-gray-400">Use-after-free vulnerability from data race in plug-in events</div>
+                            </li>
+                            <li>
+                                <div className="font-medium text-black dark:text-white">CVE-2026-33009</div>
+                                <div className="text-sm text-gray-600 dark:text-gray-400">Race condition memory corruption in context access (CVSS 8.2)</div>
+                            </li>
+                            <li>
+                                <div className="font-medium text-black dark:text-white">CVE-2026-29044</div>
+                                <div className="text-sm text-gray-600 dark:text-gray-400">Timing flaw preventing session stop</div>
+                            </li>
+                            <li>
+                                <div className="font-medium text-black dark:text-white">CVE-2026-33014</div>
+                                <div className="text-sm text-gray-600 dark:text-gray-400">Authorization bypass during RemoteStop processing</div>
+                            </li>
+                            <li>
+                                <div className="font-medium text-black dark:text-white">CVE-2026-33015</div>
+                                <div className="text-sm text-gray-600 dark:text-gray-400">Logic flaw bypassing billing and safety controls</div>
+                            </li>
+                            <li>
+                                <div className="font-medium text-black dark:text-white">CVE-2026-22790</div>
+                                <div className="text-sm text-gray-600 dark:text-gray-400">Stack-based buffer overflow via SLAC payloads</div>
+                            </li>
+                            <li>
+                                <div className="font-medium text-black dark:text-white">CVE-2026-22593</div>
+                                <div className="text-sm text-gray-600 dark:text-gray-400">Stack-based buffer overflow in IsoMux certificate handling</div>
+                            </li>
+                            <li>
+                                <div className="font-medium text-black dark:text-white">CVE-2026-23995</div>
+                                <div className="text-sm text-gray-600 dark:text-gray-400">Stack-based buffer overflow in CAN interface initialization</div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
                         <h3 className="text-lg font-medium mb-4 border-b border-gray-100 dark:border-gray-800 pb-2">Mobile Bug Bounty</h3>
                         <ul className="space-y-4">
                             <li>

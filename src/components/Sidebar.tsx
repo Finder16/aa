@@ -46,6 +46,9 @@ export default function Sidebar() {
                         <Link href="/projects" className="hover:underline block py-1">Projects</Link>
                     </li>
                     <li>
+                        <Link href="/talks" className="hover:underline block py-1">Talks</Link>
+                    </li>
+                    <li>
                         <Link href="/honors" className="hover:underline block py-1">Honors</Link>
                     </li>
                 </ul>

@@ -60,16 +60,16 @@ export default function Home() {
       <Section title="News">
         <div className="flex flex-col gap-4">
           <div className="flex flex-col sm:flex-row gap-2 sm:gap-6 text-sm">
+            <span className="font-mono text-gray-500 dark:text-gray-400 min-w-24">Sep 2026</span>
+            <span>Presenting at <strong>EMUCON</strong> (Canberra).</span>
+          </div>
+          <div className="flex flex-col sm:flex-row gap-2 sm:gap-6 text-sm">
             <span className="font-mono text-gray-500 dark:text-gray-400 min-w-24">Mar 2026</span>
             <span>Participating in <strong>SECCON CTF Finals 2026</strong> (Tokyo).</span>
           </div>
           <div className="flex flex-col sm:flex-row gap-2 sm:gap-6 text-sm">
             <span className="font-mono text-gray-500 dark:text-gray-400 min-w-24">Feb 2026</span>
             <span>Accepted to <strong>KCSE 2026</strong> (Ulsan).</span>
-          </div>
-          <div className="flex flex-col sm:flex-row gap-2 sm:gap-6 text-sm">
-            <span className="font-mono text-gray-500 dark:text-gray-400 min-w-24">Aug 2025</span>
-            <span>Finalist in <strong>DEFCON 33 CTF</strong> (Las Vegas).</span>
           </div>
         </div>
       </Section>
@@ -112,6 +112,23 @@ export default function Home() {
         </ul>
         <div className="mt-4 text-right">
           <Link href="/research" className="text-sm font-medium text-blue-600 dark:text-blue-400 hover:underline">View All Research →</Link>
+        </div>
+      </Section>
+
+      {/* Talks */}
+      <Section title="Talks & Presentations">
+        <ul className="space-y-3">
+          <li>
+            <div className="font-medium">Zero-Click to Root: Breaking IoT Security Without Authentication</div>
+            <div className="text-sm text-gray-600 dark:text-gray-400">EMUCON</div>
+          </li>
+          <li>
+            <div className="font-medium">Pre-Auth RCE in IPCAM : How I Became Big Brother</div>
+            <div className="text-sm text-gray-600 dark:text-gray-400">Holyshield Conference</div>
+          </li>
+        </ul>
+        <div className="mt-4 text-right">
+          <Link href="/talks" className="text-sm font-medium text-blue-600 dark:text-blue-400 hover:underline">View All Talks →</Link>
         </div>
       </Section>
 
