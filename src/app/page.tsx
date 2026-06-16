@@ -29,6 +29,15 @@ export default function Home() {
           <li>
             <div className="flex flex-col sm:flex-row gap-1 sm:gap-4 justify-between">
               <div>
+                <div className="font-medium">STEALIEN Inc.</div>
+                <div className="text-sm text-gray-600 dark:text-gray-400">Pentest Team Intern</div>
+              </div>
+              <div className="text-sm text-gray-500 font-mono">2025.09 ~ 2025.10</div>
+            </div>
+          </li>
+          <li>
+            <div className="flex flex-col sm:flex-row gap-1 sm:gap-4 justify-between">
+              <div>
                 <div className="font-medium">HSPACE</div>
                 <div className="text-sm text-gray-600 dark:text-gray-400">Field Trainee</div>
               </div>
@@ -102,8 +111,8 @@ export default function Home() {
             <div className="text-sm text-gray-600 dark:text-gray-400">Out-of-bounds write in GVCID managed parameters (CVSS 7.3)</div>
           </li>
           <li>
-            <div className="font-medium">CVE-2026-21898 (NASA CryptoLib)</div>
-            <div className="text-sm text-gray-600 dark:text-gray-400">Out-of-bounds read in AOS frame parsing (CVSS 7.5)</div>
+            <div className="font-medium">CVE-2026-24156 (NVIDIA DALI)</div>
+            <div className="text-sm text-gray-600 dark:text-gray-400">Code execution vulnerability (CVSS 7.3)</div>
           </li>
           <li>
             <div className="font-medium">CVE-2025-14876 (QEMU)</div>
