@@ -165,6 +165,20 @@ export default function ResearchPage() {
                     </div>
 
                     <div>
+                        <h3 className="text-lg font-medium mb-4 border-b border-gray-100 dark:border-gray-800 pb-2">NVIDIA</h3>
+                        <ul className="space-y-4">
+                            <li>
+                                <div className="font-medium text-black dark:text-white">CVE-2026-24156 (DALI)</div>
+                                <div className="text-sm text-gray-600 dark:text-gray-400">Code execution (CVSS 7.3)</div>
+                            </li>
+                            <li>
+                                <div className="font-medium text-black dark:text-white">CVE-2026-24173 (Triton Inference Server)</div>
+                                <div className="text-sm text-gray-600 dark:text-gray-400">Heap overflow (CVSS 7.5)</div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
                         <h3 className="text-lg font-medium mb-4 border-b border-gray-100 dark:border-gray-800 pb-2">Mobile Bug Bounty</h3>
                         <ul className="space-y-4">
                             <li>
