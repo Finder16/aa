@@ -32,7 +32,7 @@ export default function Home() {
                 <div className="font-medium">STEALIEN Inc.</div>
                 <div className="text-sm text-gray-600 dark:text-gray-400">Pentest Team Intern</div>
               </div>
-              <div className="text-sm text-gray-500 font-mono">2025.09 ~ 2025.10</div>
+              <div className="text-sm text-gray-500 font-mono">2026.03 ~ 2026.06</div>
             </div>
           </li>
           <li>
