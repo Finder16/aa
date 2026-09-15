@@ -95,16 +95,16 @@ export default function Home() {
       <Section title="Vulnerability Research">
         <ul className="space-y-3">
           <li>
-            <div className="font-medium">CVE-2026-21897 (NASA CryptoLib)</div>
-            <div className="text-sm text-gray-600 dark:text-gray-400">Out-of-bounds write in GVCID managed parameters (CVSS 7.3)</div>
+            <div className="font-medium">CVE-2026-43783 (Apple DesktopServices)</div>
+            <div className="text-sm text-gray-600 dark:text-gray-400">Race condition leading to root privilege escalation</div>
           </li>
           <li>
-            <div className="font-medium">CVE-2026-24156 (NVIDIA DALI)</div>
-            <div className="text-sm text-gray-600 dark:text-gray-400">Code execution vulnerability (CVSS 7.3)</div>
+            <div className="font-medium">CVE-2026-43805 (Apple IOKit)</div>
+            <div className="text-sm text-gray-600 dark:text-gray-400">Race condition allowing kernel memory writes</div>
           </li>
           <li>
-            <div className="font-medium">CVE-2025-14876 (QEMU)</div>
-            <div className="text-sm text-gray-600 dark:text-gray-400">Denial of Service in virtio device emulation (CVSS 5.5)</div>
+            <div className="font-medium">CVE-2026-28969 (Apple IOKit)</div>
+            <div className="text-sm text-gray-600 dark:text-gray-400">Use-after-free causing unexpected system termination</div>
           </li>
         </ul>
         <div className="mt-4 text-right">

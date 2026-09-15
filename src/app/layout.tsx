@@ -5,8 +5,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Jaeyeong Lee (Fin)",
-  description: "Academic Personal Website of Jaeyeong Lee (Fin), Security Researcher.",
+  title: "Jaeyeong Lee",
+  description: "Personal website of Jaeyeong Lee, Security Researcher.",
 };
 
 import Sidebar from "@/components/Sidebar";
