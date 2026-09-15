@@ -18,15 +18,6 @@ export default function Home() {
               <span>Seoul Women&apos;s University, Cybersecurity Gifted Education Institute — High-Level Specialized Class A, White Hat Track (2024.05 ~ 2024.11)</span>
             </div>
           </div>
-          <div className="flex gap-2 items-start">
-            <span className="font-semibold min-w-24">Skills</span>
-            <div className="flex flex-col">
-              <span><span className="font-medium">Research</span> — Operating-System Security, Vulnerability Research, Reverse Engineering, Fuzzing, Program Analysis, Automated Vulnerability Analysis</span>
-              <span><span className="font-medium">Systems</span> — macOS, LLVM, Virtualization, Embedded / IoT Systems</span>
-              <span><span className="font-medium">Programming</span> — C/C++, Python, Assembly, Solidity</span>
-              <span><span className="font-medium">Languages</span> — Korean (Native), English (Advanced)</span>
-            </div>
-          </div>
         </div>
       </div>
 
