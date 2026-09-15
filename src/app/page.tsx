@@ -8,18 +8,25 @@ export default function Home() {
       <div className="mb-16">
         <h1 className="text-3xl font-bold mb-6">About Me</h1>
         <p className="text-lg leading-relaxed text-gray-700 dark:text-gray-300 mb-6">
-          I am Jaeyeong Lee, a South Korean security researcher and CTF player.
-          I mainly work on security research projects and have a strong interest in automatically discovering vulnerabilities. I’m also deeply interested in every field that operates on computers.
+          I am Jaeyeong Lee, a security researcher focused on operating-system security, vulnerability research, reverse engineering, fuzzing, program analysis, and automated vulnerability discovery. My research experience spans macOS, virtualization, embedded and IoT systems, and large open-source software projects.
         </p>
         <div className="flex flex-col gap-2 text-sm text-gray-600 dark:text-gray-400">
           <div className="flex gap-2 items-start">
             <span className="font-semibold min-w-24">Education</span>
             <div className="flex flex-col">
-              <span>Sunrin Internet Highschool, Information Security (2023.3 ~ 2026.2)</span>
-              <span>Seoul Women&apos;s Univ, Cybersecurity Gifted Education (2024.05 ~ 2024.11)</span>
+              <span>Sunrin Internet High School, Information Security (2023.3 ~ 2026.2)</span>
+              <span>Seoul Women&apos;s University, Cybersecurity Gifted Education Institute — High-Level Specialized Class A, White Hat Track (2024.05 ~ 2024.11)</span>
             </div>
           </div>
-
+          <div className="flex gap-2 items-start">
+            <span className="font-semibold min-w-24">Skills</span>
+            <div className="flex flex-col">
+              <span><span className="font-medium">Research</span> — Operating-System Security, Vulnerability Research, Reverse Engineering, Fuzzing, Program Analysis, Automated Vulnerability Analysis</span>
+              <span><span className="font-medium">Systems</span> — macOS, LLVM, Virtualization, Embedded / IoT Systems</span>
+              <span><span className="font-medium">Programming</span> — C/C++, Python, Assembly, Solidity</span>
+              <span><span className="font-medium">Languages</span> — Korean (Native), English (Advanced)</span>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -30,7 +37,7 @@ export default function Home() {
             <div className="flex flex-col sm:flex-row gap-1 sm:gap-4 justify-between">
               <div>
                 <div className="font-medium">STEALIEN Inc.</div>
-                <div className="text-sm text-gray-600 dark:text-gray-400">Pentest Team Intern</div>
+                <div className="text-sm text-gray-600 dark:text-gray-400">Penetration Testing Team Intern</div>
               </div>
               <div className="text-sm text-gray-500 font-mono">2026.03 ~ 2026.06</div>
             </div>
@@ -42,24 +49,6 @@ export default function Home() {
                 <div className="text-sm text-gray-600 dark:text-gray-400">Field Trainee</div>
               </div>
               <div className="text-sm text-gray-500 font-mono">2025.07 ~ 2025.08</div>
-            </div>
-          </li>
-          <li>
-            <div className="flex flex-col sm:flex-row gap-1 sm:gap-4 justify-between">
-              <div>
-                <div className="font-medium">Korea Univ. Blockchain Valley</div>
-                <div className="text-sm text-gray-600 dark:text-gray-400">Security Team (Research)</div>
-              </div>
-              <div className="text-sm text-gray-500 font-mono">2025.03 ~ 2025.07</div>
-            </div>
-          </li>
-          <li>
-            <div className="flex flex-col sm:flex-row gap-1 sm:gap-4 justify-between">
-              <div>
-                <div className="font-medium">Sunrin Internet Highschool</div>
-                <div className="text-sm text-gray-600 dark:text-gray-400">Information Security</div>
-              </div>
-              <div className="text-sm text-gray-500 font-mono">2023.03 ~ 2026.02</div>
             </div>
           </li>
         </ul>
@@ -86,6 +75,14 @@ export default function Home() {
       {/* Publications */}
       <Section title="Publications">
         <ul className="space-y-4">
+          <li>
+            <div className="font-medium text-black dark:text-white leading-relaxed">
+              Race to Charge: Concurrency Bugs and State Integrity Violations in EV Charging Infrastructure
+            </div>
+            <div className="text-sm text-gray-500 mt-1 italic">
+              VehicleSec &apos;26, USENIX Workshop, 2026
+            </div>
+          </li>
           <li>
             <div className="font-medium text-black dark:text-white leading-relaxed">
               ExplosionGuard: Policy Synthesis and Guardrails for Budget-Constrained Symbolic Execution
@@ -133,7 +130,7 @@ export default function Home() {
           </li>
           <li>
             <div className="font-medium">Pre-Auth RCE in IPCAM : How I Became Big Brother</div>
-            <div className="text-sm text-gray-600 dark:text-gray-400">Holyshield Conference</div>
+            <div className="text-sm text-gray-600 dark:text-gray-400">HolyShield Conference</div>
           </li>
         </ul>
         <div className="mt-4 text-right">
@@ -145,16 +142,16 @@ export default function Home() {
       <Section title="Honors & Awards">
         <ul className="space-y-2 text-sm">
           <li className="flex gap-4">
-            <span className="font-semibold min-w-8 text-gray-400">2025</span>
-            <span>1st Place, <strong>Holyshield CTF 2025</strong></span>
+            <span className="font-semibold min-w-8 text-gray-400">2026</span>
+            <span>6th Place, <strong>SECCON CTF International Finals 2026</strong></span>
           </li>
           <li className="flex gap-4">
             <span className="font-semibold min-w-8 text-gray-400">2025</span>
-            <span>8th Place, <strong>DEFCON 33 Final</strong></span>
+            <span>1st Place, <strong>HITCON CTF 2025</strong></span>
           </li>
           <li className="flex gap-4">
-            <span className="font-semibold min-w-8 text-gray-400">2024</span>
-            <span>KORAIL Vulnerability Award</span>
+            <span className="font-semibold min-w-8 text-gray-400">2025</span>
+            <span>Certificate of Commendation, <strong>KORAIL</strong></span>
           </li>
         </ul>
         <div className="mt-4 text-right">
