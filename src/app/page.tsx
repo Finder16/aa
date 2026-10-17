@@ -70,8 +70,11 @@ export default function Home() {
             <div className="font-medium text-black dark:text-white leading-relaxed">
               Race to Charge: Concurrency Bugs and State Integrity Violations in EV Charging Infrastructure
             </div>
+            <div className="text-sm text-gray-600 dark:text-gray-400 mt-1">
+              <span className="font-semibold text-black dark:text-white">Jaeyeong Lee</span> and Seonhyeong Lee
+            </div>
             <div className="text-sm text-gray-500 mt-1 italic">
-              VehicleSec &apos;26, USENIX Workshop, 2026
+              VehicleSec &apos;26, USENIX Conference, 2026
             </div>
           </li>
           <li>
