@@ -106,8 +106,8 @@ export default function Home() {
             <div className="text-sm text-gray-600 dark:text-gray-400">Race condition allowing kernel memory writes</div>
           </li>
           <li>
-            <div className="font-medium">CVE-2026-28969 (Apple IOKit)</div>
-            <div className="text-sm text-gray-600 dark:text-gray-400">Use-after-free causing unexpected system termination</div>
+            <div className="font-medium">CVE-2026-65372 (Apple Multi-Touch)</div>
+            <div className="text-sm text-gray-600 dark:text-gray-400">Privacy restrictions bypass allowing unauthorized access to protected information</div>
           </li>
         </ul>
         <div className="mt-4 text-right">
