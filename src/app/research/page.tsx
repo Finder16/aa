@@ -18,32 +18,48 @@ export default function ResearchPage() {
                 <div className="text-sm text-gray-600 dark:text-gray-400">Race condition allowing kernel memory writes</div>
               </li>
               <li>
+                <div className="font-medium text-black dark:text-white">CVE-2026-28969 (IOKit)</div>
+                <div className="text-sm text-gray-600 dark:text-gray-400">Use-after-free causing unexpected system termination</div>
+              </li>
+              <li>
                 <div className="font-medium text-black dark:text-white">CVE-2026-43672 (Assets)</div>
-                <div className="text-sm text-gray-600 dark:text-gray-400">Authorization issue allowing Privacy preference bypass</div>
-              </li>
-              <li>
-                <div className="font-medium text-black dark:text-white">CVE-2026-65404 (Accounts)</div>
-                <div className="text-sm text-gray-600 dark:text-gray-400">Authorization issue allowing Privacy preference bypass</div>
-              </li>
-              <li>
-                <div className="font-medium text-black dark:text-white">CVE-2026-43789 (CoreMedia)</div>
-                <div className="text-sm text-gray-600 dark:text-gray-400">Access control issue exposing user-sensitive data</div>
-              </li>
-              <li>
-                <div className="font-medium text-black dark:text-white">CVE-2026-43759 (CoreMedia)</div>
-                <div className="text-sm text-gray-600 dark:text-gray-400">Authorization issue exposing sensitive user data</div>
+                <div className="text-sm text-gray-600 dark:text-gray-400">Privacy restrictions bypass allowing unauthorized access to sensitive information</div>
               </li>
               <li>
                 <div className="font-medium text-black dark:text-white">CVE-2026-43756 (Control Center)</div>
-                <div className="text-sm text-gray-600 dark:text-gray-400">Logic issue exposing user-sensitive data</div>
+                <div className="text-sm text-gray-600 dark:text-gray-400">Unauthorized access to sensitive user information</div>
+              </li>
+              <li>
+                <div className="font-medium text-black dark:text-white">CVE-2026-43759 (CoreMedia)</div>
+                <div className="text-sm text-gray-600 dark:text-gray-400">Unauthorized access to sensitive user information</div>
+              </li>
+              <li>
+                <div className="font-medium text-black dark:text-white">CVE-2026-43789 (CoreMedia)</div>
+                <div className="text-sm text-gray-600 dark:text-gray-400">Sandbox restriction bypass allowing access to sensitive information</div>
               </li>
               <li>
                 <div className="font-medium text-black dark:text-white">CVE-2026-65345 (Storage)</div>
-                <div className="text-sm text-gray-600 dark:text-gray-400">Permissions issue exposing user-sensitive data</div>
+                <div className="text-sm text-gray-600 dark:text-gray-400">Unauthorized access to sensitive user information</div>
               </li>
               <li>
-                <div className="font-medium text-black dark:text-white">CVE-2026-28969 (IOKit)</div>
-                <div className="text-sm text-gray-600 dark:text-gray-400">Use-after-free causing unexpected system termination</div>
+                <div className="font-medium text-black dark:text-white">CVE-2026-65372 (Multi-Touch)</div>
+                <div className="text-sm text-gray-600 dark:text-gray-400">Privacy restrictions bypass allowing unauthorized access to protected information</div>
+              </li>
+              <li>
+                <div className="font-medium text-black dark:text-white">CVE-2026-65404 (Accounts)</div>
+                <div className="text-sm text-gray-600 dark:text-gray-400">Privacy restrictions bypass allowing unauthorized access to protected information</div>
+              </li>
+              <li>
+                <div className="font-medium text-black dark:text-white">CVE-2026-86921 (Siri)</div>
+                <div className="text-sm text-gray-600 dark:text-gray-400">Unauthorized file overwrite affecting restricted filesystem locations</div>
+              </li>
+              <li>
+                <div className="font-medium text-black dark:text-white">CVE-2026-112487 (Storage)</div>
+                <div className="text-sm text-gray-600 dark:text-gray-400">Privilege escalation allowing an attacker to obtain root privileges</div>
+              </li>
+              <li>
+                <div className="font-medium text-black dark:text-white">CVE-2026-112696 (Neural Engine)</div>
+                <div className="text-sm text-gray-600 dark:text-gray-400">Out-of-bounds write leading to kernel memory corruption</div>
               </li>
             </ul>
           </div>
